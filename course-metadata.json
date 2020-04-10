@@ -1,7 +1,7 @@
 {
   "@context": "http://schema.org",
   "@type": "Course",
-  "name": "Tietokantojen perusteet, kevät 2020",
+  "name": "Tietokantojen perusteet, kesä 2020",
   "description": "",
   "provider": {
     "@type": "Organization",
@@ -16,7 +16,7 @@
   "hasCourseInstance": [
     {
       "@type": "CourseInstance",
-      "name": "Tietokantojen perusteet, kevät 2020",
+      "name": "Tietokantojen perusteet, kesä 2020",
       "courseMode": ["MOOC", "online"],
       "location": {
         "@type": "Place",

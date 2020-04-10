@@ -52,7 +52,7 @@ const SubHeading = styled.div`
 
 const Banner = () => (
   <BannerWrapper>
-    <Heading>Tietokantojen perusteet, kevät 2020</Heading>
+    <Heading>Tietokantojen perusteet, kesä 2020</Heading>
     <SubHeading>Johdatus suurten tietomäärien käsittelyyn</SubHeading>
   </BannerWrapper>
 )

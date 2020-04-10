@@ -33,7 +33,7 @@ export function createAccount(data) {
   data.username = uuidv4()
   const body = {
     user: data,
-    origin: "Tietokantojen perusteet, kevät 2020",
+    origin: "Tietokantojen perusteet, kesä 2020",
     language: "fi",
   }
   return new Promise((resolve, reject) => {
@@ -87,7 +87,7 @@ export function onLoginStateChanged(callback) {
 
 export async function userDetails() {
   const res = await axios.get(
-    `${BASE_URL}/users/current?show_user_fields=true&extra_fields=tietokantojen-perusteet-k20`,
+    `${BASE_URL}/users/current?show_user_fields=true&extra_fields=tietokantojen-perusteet-ke20`,
     {
       headers: {
         "Content-Type": "application/json",
@@ -128,7 +128,7 @@ export async function updateUserDetails({ extraFields, userField }) {
     {
       user: {
         extra_fields: {
-          namespace: "tietokantojen-perusteet-k20",
+          namespace: "tietokantojen-perusteet-ke20",
           data: extraFields,
         },
       },
@@ -222,5 +222,5 @@ export async function getCourseVariant() {
 }
 
 async function getCourse() {
-  return "tira-s19"
+  return "tikape-ke20"
 }

@@ -179,7 +179,7 @@ class Sidebar extends React.Component {
           </Button>
         </MenuExpanderWrapper>
         <SidebarContainer mobileMenuOpen={this.props.mobileMenuOpen}>
-          <Brand>Tietokantojen perusteet, kevät 2020</Brand>
+          <Brand>Tietokantojen perusteet, kesä 2020</Brand>
           <TreeViewContainer>
             <TreeView data={content} />
           </TreeViewContainer>
