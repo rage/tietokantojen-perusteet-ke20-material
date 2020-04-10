@@ -106,22 +106,6 @@ var content2 = [
     title: "Kurssimateriaali",
     path: "/materiaali",
   },
-  {
-    title: "SQL-tehtävät",
-    path: "/tehtavat",
-  },
-  {
-    title: "Harjoitustyö",
-    path: "/harjoitustyo",
-  },
-  {
-    title: "Kurssiblogi",
-    path: "/blogi",
-  },
-  {
-    title: "Loppuraportti",
-    path: "/loppuraportti",
-  },
   { separator: true },
 ]
 
