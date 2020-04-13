@@ -1,6 +1,6 @@
 ---
 path: '/luku-4'
-title: 'Luku 4: Lisää tekniikoita'
+title: 'Luku 4: SQL:n perusteet III'
 overview: true
 ---
 
