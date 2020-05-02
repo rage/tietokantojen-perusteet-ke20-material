@@ -18,7 +18,7 @@ Kesällä 2020 kurssi muodostuu automaattisesti
 tarkastettavista SQL-tehtävistä sekä
 palautettavasta harjoitustyöstä.
 Kurssiin kuuluu myös aloitusluento sekä
-viikoittaista pajaohjausta,
+viikoittaista ohjausta,
 joihin osallistuminen on vapaaehtoista.
 
 ## Luento ja ohjaus

@@ -5,13 +5,8 @@ hidden: false
 information_page: true
 ---
 
-Harjoitustyössä suunnitellaan tietokanta ja toteutetaan sitä käyttävä sovellus.
-Harjoitustyö palautetaan raporttina Moodleen 29.2. mennessä.
+Harjoitustyössä tehdään tietokannan suunnitteluun ja käyttämiseen
+liittyviä harjoituksia.
+Harjoitustyö palautetaan raporttina Moodleen 30.6. mennessä.
 
-* [Harjoitustyön ohje](/harjoitustyo-ohje)
-
-Materiaalin luvuista 5–7 on hyötyä harjoitustyön tekemisessä.
-Tässä on lisäksi ohjeita SQLiten käyttämiseen Javassa ja Pythonissa:
-
-* [SQLite Javassa](/sqlite-java)
-* [SQLite Pythonissa](/sqlite-python)
+Harjoitustyön ohjeet julkaistaan tällä sivulla kesäkuun alkuun mennessä.

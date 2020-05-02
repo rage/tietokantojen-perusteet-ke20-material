@@ -37,4 +37,4 @@ Osasuorituksen arvosana määräytyy seuraavasti:
 * arvosana 4: 90–99 tehtävää
 * arvosana 5: 100 tehtävää
 
-Kurssin SQL-tehtävien yhteinen deadline on 29.2.2020.
+Kurssin SQL-tehtävien yhteinen deadline on 30.6.2020.
