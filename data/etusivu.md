@@ -25,7 +25,7 @@ joihin osallistuminen on vapaaehtoista.
 
 Kurssilla on yksi luento: verkkoluento to 7.5.2020 klo 16:30–18:00.
 Luennon tarkoituksena on antaa yleiskuva kurssin aiheista
-ja suoritustavasta.
+ja suoritustavasta. [Zoom-linkki](https://helsinki.zoom.us/j/64998241835)
 
 Kurssin Telegram-ryhmässä voit keskustella netissä muiden opiskelijoiden ja
 kurssin järjestäjien kanssa. [Liity ryhmään](https://t.me/tkt_tikape)
