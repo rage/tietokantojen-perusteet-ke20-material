@@ -43,11 +43,11 @@ että ohjelmasi toimii oikein.
 <sample-output>
 
 <pre>
-Valitse toiminto: **1**
-Anna vuosi: **2015**
+Valitse toiminto: <font color=red>1</font>
+Anna vuosi: <font color=red>2015<font>
 Opintopisteiden määrä: 50525
-Valitse toiminto: **2**
-Anna opiskelijan nimi: **Owwoihns**
+Valitse toiminto: <font color=red>2</font>
+Anna opiskelijan nimi: <font color=red>Owwoihns</font>
 nimi                 op   päiväys        as  
 Kxnhxhjhjbbwzpex     1    2000-03-31     4   
 Uejviabtdjgwpaeg     9    2000-04-09     2   
@@ -60,11 +60,11 @@ Ktaxyibbxajrrspm     5    2018-12-29     3
 Psmlkuyldphbiobp     9    2019-06-08     4   
 Ocnhysdqkvfruyfy     3    2019-06-17     4   
 Ifmfiuypygaslysn     2    2019-08-31     5   
-Valitse toiminto: **3**
-Anna kurssin nimi: **Jvwkogfmrrioemhy**
+Valitse toiminto: <font color=red>3</font>
+Anna kurssin nimi: <font color=red>Jvwkogfmrrioemhy</font>
 Keskiarvo: 2.95
-Valitse toiminto: **4**
-Anna opettajien määrä: **10**
+Valitse toiminto: <font color=red>4</font>
+Anna opettajien määrä: <font color=red>10</font>
 opettaja       op  
 Svmuiozq       17958
 Tgufiwog       17039
@@ -76,7 +76,7 @@ Epizvfws       14994
 Eukfptdb       14906
 Buggubhz       14063
 Rgjcxofg       14038
-Valitse toiminto: **5**
+Valitse toiminto: <font color=red>5</font>
 </pre>
 
 </sample-output>
