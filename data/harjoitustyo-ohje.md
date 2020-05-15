@@ -26,6 +26,7 @@ CREATE TABLE Suoritukset (id INTEGER PRIMARY KEY, opiskelija_id INTEGER, kurssi_
 ```
 
 Saat ladattua tietokannan itsellesi SQLite-tiedostona [tästä](https://cs.helsinki.fi/u/ahslaaks/kurssit.db).
+Voit tutkia tietokantaa SQLite-tulkissa, jotta saat paremman kuvan sen sisällöstä.
 
 Tehtäväsi on laatia tietokantaa käyttävä ohjelma, jossa on seuraavat toiminnot:
 
@@ -41,6 +42,7 @@ että ohjelmasi toimii oikein.
 
 <sample-output>
 
+<pre>
 Valitse toiminto: **1**
 Anna vuosi: **2015**
 Opintopisteiden määrä: 50525
@@ -75,6 +77,7 @@ Eukfptdb       14906
 Buggubhz       14063
 Rgjcxofg       14038
 Valitse toiminto: **5**
+</pre>
 
 </sample-output>
 
