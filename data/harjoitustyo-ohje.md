@@ -15,6 +15,77 @@ information_page: true
 
 ## Tehtävä 1: Tiedon hakeminen
 
+Olemassa olevassa tietokannassa on tietoa kursseista ja suorituksista.
+Tietokannan taulujen rakenne on seuraava:
+
+```sql
+CREATE TABLE Opiskelijat (id INTEGER PRIMARY KEY, nimi TEXT);
+CREATE TABLE Opettajat (id INTEGER PRIMARY KEY, nimi TEXT);
+CREATE TABLE Kurssit (id INTEGER PRIMARY KEY, nimi TEXT, laajuus INTEGER, opettaja_id INTEGER REFERENCES Opettajat);
+CREATE TABLE Suoritukset (id INTEGER PRIMARY KEY, opiskelija_id INTEGER, kurssi_id INTEGER, arvosana INTEGER, paivays DATE);
+```
+
+Saat ladattua tietokannan itsellesi SQLite-tiedostona [tästä](https://cs.helsinki.fi/u/ahslaaks/kurssit.db).
+
+Tehtäväsi on laatia tietokantaa käyttävä ohjelma, jossa on seuraavat toiminnot:
+
+1. Laske annettuna vuonna saatujen opintopisteiden yhteismäärä.
+2. Tulosta annetun opiskelijan kaikki suoritukset.
+3. Laske annetun kurssin kaikkien suoritusten keskiarvo.
+4. Tulosta top _x_ eniten opintopisteitä antaneet opettajat.
+
+Seuraavassa on esimerkki siitä, miten ohjelmasi tulee toimia.
+Toteuta ohjelma niin, että sen toiminta vastaa tarkasti alla olevaa mallia.
+Voit myös verrata ohjelmasi toimintaa esimerkkiin ja varmistaa sen avulla,
+että ohjelmasi toimii oikein.
+
+<sample-output>
+
+Valitse toiminto: **1**
+Anna vuosi: **2015**
+Opintopisteiden määrä: 50525
+Valitse toiminto: **2**
+Anna opiskelijan nimi: **Owwoihns**
+nimi                 op   päiväys        as  
+Kxnhxhjhjbbwzpex     1    2000-03-31     4   
+Uejviabtdjgwpaeg     9    2000-04-09     2   
+Meicnoatrpvlcqnt     3    2000-06-30     3   
+Dawibpfgkjrpesut     3    2000-09-18     4   
+Vjkltdnqukmuctij     9    2001-01-07     5   
+... (rivejä välissä)
+Orjxeqtmgtivwely     9    2018-11-30     5   
+Ktaxyibbxajrrspm     5    2018-12-29     3   
+Psmlkuyldphbiobp     9    2019-06-08     4   
+Ocnhysdqkvfruyfy     3    2019-06-17     4   
+Ifmfiuypygaslysn     2    2019-08-31     5   
+Valitse toiminto: **3**
+Anna kurssin nimi: **Jvwkogfmrrioemhy**
+Keskiarvo: 2.95
+Valitse toiminto: **4**
+Anna opettajien määrä: **10**
+opettaja       op  
+Svmuiozq       17958
+Tgufiwog       17039
+Qlzxjjak       16071
+Lyalkshh       15158
+Lcjdpoqo       15078
+Ewzywjoa       14997
+Epizvfws       14994
+Eukfptdb       14906
+Buggubhz       14063
+Rgjcxofg       14038
+Valitse toiminto: **5**
+
+</sample-output>
+
+Ohjelman vaatimukset:
+
+* Ohjelman kaikki toiminnot toimivat oikein.
+* Jokaisessa toiminnossa suoritetaan yksittäinen SQL-kysely, jonka tulostaulu
+  on sama kuin toiminnossa haluttu tulos.
+* Kyselyissä ei käytetä alikyselyjä.
+* Käyttäjän antamat tiedot annetaan kyselyille parametreina.
+
 ## Tehtävä 2: Tietokannan suunnittelu
 
 ## Tehtävä 3: Tehokkuus
