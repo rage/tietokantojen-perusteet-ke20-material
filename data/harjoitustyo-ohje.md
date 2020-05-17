@@ -89,7 +89,46 @@ Ohjelman vaatimukset:
 * Kyselyissä ei käytetä alikyselyjä.
 * Käyttäjän antamat tiedot annetaan kyselyille parametreina.
 
+Voit toteuttaa ohjelman joko Java- tai Python-kielellä valintasi mukaan.
+Seuraavissa ohjeissa on neuvoja SQLiten käyttämiseen näillä kielillä:
+
+* [SQLite Javassa](/sqlite-java)
+* [SQLite Pythonissa](/sqlite-python)
+
 ## Tehtävä 2: Tietokannan suunnittelu
+
+Tehtäväsi on suunnitella tietokanta, jota voitaisiin käyttää YouTuben kaltaisen
+videopalvelun taustalla. Suunnittele tietokanta niin, että siihen voidaan tallentaa
+tietosisältö seuraavia toimintoja varten:
+
+1. Käyttäjä voi etsiä videoita antamalla sanan, joka esiintyy videon nimessä tai kuvauksessa.
+2. Käyttäjä arvioi videon (peukku ylös tai alas) ja videon yhteydessä näkyy
+   yhteenveto käyttäjien arvioista. Sama käyttäjä voi antaa vain yhden arvion videolle.
+3. Videon alla näkyy kommentteja käyttäjiltä. Myös näissä voi antaa arvion samaan
+   tapaan kuin videossa (peukku ylös tai alas, vain yksi arvio samalta käyttäjältä).
+4. Käyttäjä voi perustaa oman kanavan ja julkaista siellä videoita. Kanavan sisällä
+   videoita voi luokitella sarjoihin.
+5. Käyttäjä voi tilata toisen käyttäjän kanavan, jolloin hän saa tietoa uusista videoista.
+6. Käyttäjä voi luoda soittolistoja, joihin voi valita videoita eri kanavista.
+   Soittolistan videoilla on tietty järjestys.
+7. Käyttäjä voi lähettää viestin toiselle käyttäjälle sekä estää toista käyttäjää
+   lähettämästä viestejä.
+
+Tehtäväsi on suunnitella, mitä tauluja tietokannassa on, mitä sarakkeita kussakin taulussa on
+ja miten taulut viittaavat toisiinsa. Jos yllä oleva kuvaus ei kerro jotain yksityiskohtaa,
+tee jokin järkevä päätös tämän asian suhteen.
+
+Esitä tietokannan rakenne tietokantakaaviona sekä SQL-skeemana. Suunnittele tietokannan luvun
+5 periaatteiden mukaisesti ja käytä sopivalla tavalla luvun 6.1 tekniikoita SQL-skeemassa.
+Selosta lisäksi jokaisesta yllä olevasta vaatimuksesta (1–7), mitä tietoa tietokantaan
+tallennetaan, jotta kyseinen vaatimus saadaan toteutettua.
+
+Tässä ohjeessa on neuvoja tietokantakaavion ja SQL-skeeman tekemiseen:
+
+* [Tietokannan kuvaaminen](/tietokannan-kuvaaminen)
+
+Huom! Sinun ei tarvitse suunnitella, miten videot itsessään tallennetaan eikä miten palvelu
+osaa suositella käyttäjälle videoita.
 
 ## Tehtävä 3: Tehokkuus
 
@@ -119,6 +158,12 @@ mutta älä tulosta testeissä mitään muuta kuin kunkin vaiheen ajankäyttö.
 
 Liitä raporttiin testien tulokset sekä käyttämäsi ohjelman lähdekoodi.
 
+Voit toteuttaa ohjelman joko Java- tai Python-kielellä valintasi mukaan.
+Seuraavissa ohjeissa on neuvoja SQLiten käyttämiseen näillä kielillä:
+
+* [SQLite Javassa](/sqlite-java)
+* [SQLite Pythonissa](/sqlite-python)
+
 ## Tehtävä 4: Normaalimuodot
 
 Tietokantojen teoriassa _normalisointi_ (_normalization_) on prosessi,
@@ -133,3 +178,6 @@ jonka tavoitteena on parantaa tietokannan rakennetta.
 
 Sopiva pituus tälle tehtävälle on noin kaksi sivua tekstiä raportissa.
 Liitä mukaan tehtävässä käyttämäsi lähteet.
+
+Huom! Kirjoita selostus niin, että sen voi ymmärtää ilman esitietoja
+normaalimuodoista tai tietokantojen teoriasta.
