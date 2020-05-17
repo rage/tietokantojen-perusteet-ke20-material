@@ -177,7 +177,7 @@ jonka tavoitteena on parantaa tietokannan rakennetta.
    on normaalimuotojen kanssa?
 
 Sopiva pituus tälle tehtävälle on noin kaksi sivua tekstiä raportissa.
-Liitä mukaan tehtävässä käyttämäsi lähteet.
+Liitä mukaan lista tehtävässä käyttämistäsi lähteistä.
 
 Huom! Kirjoita selostus niin, että sen voi ymmärtää ilman esitietoja
 normaalimuodoista tai tietokantojen teoriasta.
