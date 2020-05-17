@@ -1,5 +1,5 @@
 ---
-path: '/tietokannan-kuvaaminen.md'
+path: '/tietokannan-kuvaaminen'
 title: 'Tietokannan kuvaaminen'
 hidden: false
 ---
