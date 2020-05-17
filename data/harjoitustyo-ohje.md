@@ -118,8 +118,8 @@ Tehtäväsi on suunnitella, mitä tauluja tietokannassa on, mitä sarakkeita kus
 ja miten taulut viittaavat toisiinsa. Jos yllä oleva kuvaus ei kerro jotain yksityiskohtaa,
 tee jokin järkevä päätös tämän asian suhteen.
 
-Esitä tietokannan rakenne tietokantakaaviona sekä SQL-skeemana. Suunnittele tietokannan luvun
-5 periaatteiden mukaisesti ja käytä sopivalla tavalla luvun 6.1 tekniikoita SQL-skeemassa.
+Esitä tietokannan rakenne tietokantakaaviona sekä SQL-skeemana. Suunnittele tietokanta luvun
+5 periaatteiden mukaisesti ja käytä sopivalla tavalla luvun 6.1 tekniikoita.
 Selosta lisäksi jokaisesta yllä olevasta vaatimuksesta (1–7), mitä tietoa tietokantaan
 tallennetaan, jotta kyseinen vaatimus saadaan toteutettua.
 
