@@ -27,6 +27,7 @@ CREATE TABLE Suoritukset (id INTEGER PRIMARY KEY, opiskelija_id INTEGER, kurssi_
 
 Saat ladattua tietokannan itsellesi SQLite-tiedostona [tästä](https://cs.helsinki.fi/u/ahslaaks/kurssit.db).
 Voit tutkia tietokantaa SQLite-tulkissa, jotta saat paremman kuvan sen sisällöstä.
+Tietokannan sisältö on luotu satunnaisesti tätä tehtävää varten.
 
 Tehtäväsi on laatia tietokantaa käyttävä ohjelma, jossa on seuraavat toiminnot:
 
@@ -44,38 +45,38 @@ että ohjelmasi toimii oikein.
 
 <pre>
 Valitse toiminto: <font color=red>1</font>
-Anna vuosi: <font color=red>2015</font>
-Opintopisteiden määrä: 50525
+Anna vuosi: <font color=red>2014</font>
+Opintopisteiden määrä: 50082
 Valitse toiminto: <font color=red>2</font>
-Anna opiskelijan nimi: <font color=red>Owwoihns</font>
-nimi                 op   päiväys        as  
-Kxnhxhjhjbbwzpex     1    2000-03-31     4   
-Uejviabtdjgwpaeg     9    2000-04-09     2   
-Meicnoatrpvlcqnt     3    2000-06-30     3   
-Dawibpfgkjrpesut     3    2000-09-18     4   
-Vjkltdnqukmuctij     9    2001-01-07     5   
+Anna opiskelijan nimi: <font color=red>Anni Virtanen</font>
+kurssi         op   päiväys        as  
+TKT3617        5    2000-03-21     3   
+TKT2155        10   2000-08-22     3   
+TKT1414        6    2000-11-26     2   
+TKT3013        10   2000-12-04     5   
+TKT7048        10   2000-12-19     3 
 ... (rivejä välissä)
-Orjxeqtmgtivwely     9    2018-11-30     5   
-Ktaxyibbxajrrspm     5    2018-12-29     3   
-Psmlkuyldphbiobp     9    2019-06-08     4   
-Ocnhysdqkvfruyfy     3    2019-06-17     4   
-Ifmfiuypygaslysn     2    2019-08-31     5   
+TKT9787        2    2018-12-12     2   
+TKT8115        5    2019-01-24     1   
+TKT1056        6    2019-03-25     3   
+TKT9986        10   2019-04-21     5   
+TKT5884        10   2019-08-30     2  
 Valitse toiminto: <font color=red>3</font>
-Anna kurssin nimi: <font color=red>Jvwkogfmrrioemhy</font>
-Keskiarvo: 2.95
+Anna kurssin nimi: <font color=red>TKT4609</font>
+Keskiarvo: 3.03
 Valitse toiminto: <font color=red>4</font>
 Anna opettajien määrä: <font color=red>10</font>
-opettaja       op  
-Svmuiozq       17958
-Tgufiwog       17039
-Qlzxjjak       16071
-Lyalkshh       15158
-Lcjdpoqo       15078
-Ewzywjoa       14997
-Epizvfws       14994
-Eukfptdb       14906
-Buggubhz       14063
-Rgjcxofg       14038
+opettaja             op  
+Mervi Immonen        19155
+Otto Mattila         17015
+Katja Parviainen     15936
+Veeti Penttinen      15899
+Jouni Mäkinen        15199
+Esa Lampinen         15065
+Jouni Tikkanen       14993
+Katri Kokkonen       14838
+Ari Toivanen         14006
+Pirkko Kemppainen    13133
 Valitse toiminto: <font color=red>5</font>
 </pre>
 
