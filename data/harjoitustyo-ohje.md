@@ -120,14 +120,16 @@ tietosisältö seuraavia toimintoja varten:
 6. Käyttäjä voi luoda soittolistoja, joihin voi valita videoita eri kanavista.
    Soittolistan videoilla on tietty järjestys.
 7. Käyttäjä voi lähettää viestin toiselle käyttäjälle sekä estää toista käyttäjää
-   lähettämästä viestejä.
+   lähettämästä viestejä hänelle.
 
 Tehtäväsi on suunnitella, mitä tauluja tietokannassa on, mitä sarakkeita kussakin taulussa on
 ja miten taulut viittaavat toisiinsa. Jos yllä oleva kuvaus ei kerro jotain yksityiskohtaa,
 tee jokin järkevä päätös tämän asian suhteen.
 
 Esitä tietokannan rakenne tietokantakaaviona sekä SQL-skeemana. Suunnittele tietokanta luvun
-5 periaatteiden mukaisesti ja käytä sopivalla tavalla luvun 6.1 tekniikoita.
+5 periaatteiden mukaisesti ja käytä sopivissa kohdissa luvun 6.1 tekniikoita
+varmistamaan, että tietokannassa oleva tieto on oikeellista.
+
 Selosta lisäksi jokaisesta yllä olevasta vaatimuksesta (1–7), mitä tietoa tietokantaan
 tallennetaan, jotta kyseinen vaatimus saadaan toteutettua.
 
