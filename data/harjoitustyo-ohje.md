@@ -156,7 +156,7 @@ sisällä, jotta testi ei vie liian paljon aikaa.
 
 Suorita ohjelman avulla kolme testiä seuraavissa tapauksissa:
 
-* Taulussa ei ole indeksiä.
+* Tauluun ei lisätä indeksiä.
 * Tauluun lisätään kyselyitä tehostava indeksi ennen vaihetta 2.
 * Tauluun lisätään kyselyitä tehostava indeksi ennen vaihetta 3.
 
