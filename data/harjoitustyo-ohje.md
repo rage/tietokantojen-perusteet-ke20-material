@@ -49,7 +49,7 @@ Anna vuosi: <font color=red>2014</font>
 Opintopisteiden määrä: 50082
 Valitse toiminto: <font color=red>2</font>
 Anna opiskelijan nimi: <font color=red>Anni Virtanen</font>
-kurssi         op   päiväys        as  
+kurssi         op   päiväys        arvosana
 TKT3617        5    2000-03-21     3   
 TKT2155        10   2000-08-22     3   
 TKT1414        6    2000-11-26     2   
@@ -61,9 +61,15 @@ TKT8115        5    2019-01-24     1
 TKT1056        6    2019-03-25     3   
 TKT9986        10   2019-04-21     5   
 TKT5884        10   2019-08-30     2  
+Valitse toiminto: <font color=red>2</font>
+Anna opiskelijan nimi: <font color=red>Uolevi Salmela</font>
+Opiskelijaa ei löytynyt
 Valitse toiminto: <font color=red>3</font>
 Anna kurssin nimi: <font color=red>TKT4609</font>
 Keskiarvo: 3.03
+Valitse toiminto: <font color=red>3</font>
+Anna kurssin nimi: <font color=red>TKT1111</font>
+Kurssia ei löytynyt
 Valitse toiminto: <font color=red>4</font>
 Anna opettajien määrä: <font color=red>10</font>
 opettaja             op  
@@ -89,6 +95,7 @@ Ohjelman vaatimukset:
   on sama kuin toiminnossa haluttu tulos.
 * Kyselyissä ei käytetä alikyselyjä.
 * Käyttäjän antamat tiedot annetaan kyselyille parametreina.
+* Ohjelma antaa järkevän tuloksen myös, jos tietoa ei löydy.
 
 Voit toteuttaa ohjelman joko Java- tai Python-kielellä valintasi mukaan.
 Seuraavissa ohjeissa on neuvoja SQLiten käyttämiseen näillä kielillä:
