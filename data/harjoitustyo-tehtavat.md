@@ -89,8 +89,9 @@ Ohjelman vaatimukset:
 * Käyttäjän antamat tiedot annetaan kyselyille parametreina.
 * Ohjelma antaa järkevän tuloksen myös, jos tietoa ei löydy.
 
-Voit toteuttaa ohjelman joko Java- tai Python-kielellä valintasi mukaan.
-Seuraavissa ohjeissa on neuvoja SQLiten käyttämiseen näillä kielillä:
+Voit toteuttaa ohjelman haluamallasi ohjelmointikielellä.
+Kurssilla annetaan ohjausta Java- ja Python-kielissä,
+joiden käyttämiseen on myös neuvoja tässä:
 
 * [SQLite Javassa](/sqlite-java)
 * [SQLite Pythonissa](/sqlite-python)
@@ -161,8 +162,9 @@ mutta älä tulosta testeissä mitään muuta kuin kunkin vaiheen ajankäyttö.
 
 Liitä raporttiin testien tulokset sekä käyttämäsi ohjelman lähdekoodi.
 
-Voit toteuttaa ohjelman joko Java- tai Python-kielellä valintasi mukaan.
-Seuraavissa ohjeissa on neuvoja SQLiten käyttämiseen näillä kielillä:
+Voit toteuttaa ohjelman haluamallasi ohjelmointikielellä.
+Kurssilla annetaan ohjausta Java- ja Python-kielissä,
+joiden käyttämiseen on myös neuvoja tässä:
 
 * [SQLite Javassa](/sqlite-java)
 * [SQLite Pythonissa](/sqlite-python)
