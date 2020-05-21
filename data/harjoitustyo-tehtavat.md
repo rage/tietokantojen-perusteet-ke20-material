@@ -65,16 +65,16 @@ Kurssia ei löytynyt
 Valitse toiminto: <font color=red>4</font>
 Anna opettajien määrä: <font color=red>10</font>
 opettaja             op  
-Mervi Immonen        19155
-Otto Mattila         17015
-Katja Parviainen     15936
-Veeti Penttinen      15899
-Jouni Mäkinen        15199
-Esa Lampinen         15065
-Jouni Tikkanen       14993
-Katri Kokkonen       14838
-Ari Toivanen         14006
-Pirkko Kemppainen    13133
+Mervi Immonen        124692
+Otto Mattila         110474
+Ari Toivanen         87136
+Jouni Mäkinen        87022
+Merja Lehto          86554
+Jussi Leino          85083
+Katja Parviainen     83947
+Leena Hiltunen       83661
+Jouni Tikkanen       82821
+Veeti Penttinen      82111
 Valitse toiminto: <font color=red>5</font>
 </pre>
 
