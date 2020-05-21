@@ -5,6 +5,14 @@ hidden: false
 information_page: true
 ---
 
+## 21.5.2020
+
+Harjoitustyön ohje on nyt julkaistu. Harjoitustyö muodostuu neljästä
+tehtävästä, jotka palautetaan raporttina 30.6. mennessä.
+
+Harjoitustyön ohjeessa kerrotaan myös, miten voit ilmoittautua kurssille.
+Tämä täytyy tehdä 29.6. mennessä, jotta voit palauttaa harjoitustyön.
+
 ## 18.5.2020
 
 Tällä viikolla kurssin ohjausta järjestetään Telegramissa erityisesti
