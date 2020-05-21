@@ -38,7 +38,7 @@ että ohjelmasi toimii oikein.
 <pre>
 Valitse toiminto: <font color=red>1</font>
 Anna vuosi: <font color=red>2014</font>
-Opintopisteiden määrä: 50082
+Opintopisteiden määrä: 274168
 Valitse toiminto: <font color=red>2</font>
 Anna opiskelijan nimi: <font color=red>Anni Virtanen</font>
 kurssi         op   päiväys        arvosana
