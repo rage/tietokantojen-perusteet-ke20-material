@@ -1,17 +1,9 @@
 ---
-path: "/harjoitustyo-ohje"
-title: "Harjoitustyön ohje"
+path: "/harjoitustyo-tehtavat"
+title: "Harjoitustyön tehtävät"
 hidden: false
 information_page: true
 ---
-
-## Yleiset ohjeet
-
-* Harjoitustyö muodostuu neljästä tehtävästä, joiden ratkaisut palautetaan
-  raporttina yhtenä PDF-tiedostona Moodle-järjestelmään.
-* Harjoitustyön deadline on 30.6. klo 23:59.
-* Harjoitustyö on itsenäinen työ: raportissa oleva teksti ja koodi tulee
-  olla itse kirjoittamaasi.
 
 ## Tehtävä 1: Tiedon hakeminen
 
@@ -110,16 +102,17 @@ videopalvelun taustalla. Suunnittele tietokanta niin, että siihen voidaan talle
 tietosisältö seuraavia toimintoja varten:
 
 1. Käyttäjä voi etsiä videoita antamalla sanan, joka esiintyy videon nimessä tai kuvauksessa.
-2. Käyttäjä arvioi videon (peukku ylös tai alas) ja videon yhteydessä näkyy
+2. Käyttäjä voi arvioida videon (peukku ylös tai alas) ja videon yhteydessä näkyy
    yhteenveto käyttäjien arvioista. Sama käyttäjä voi antaa vain yhden arvion videolle.
 3. Videon alla näkyy kommentteja käyttäjiltä. Myös näissä voi antaa arvion samaan
    tapaan kuin videossa (peukku ylös tai alas, vain yksi arvio samalta käyttäjältä).
 4. Käyttäjä voi perustaa oman kanavan ja julkaista siellä videoita. Kanavan sisällä
    videoita voi luokitella sarjoihin.
 5. Käyttäjä voi tilata toisen käyttäjän kanavan, jolloin hän saa tietoa uusista videoista.
-6. Käyttäjä voi luoda soittolistoja, joihin voi valita videoita eri kanavista.
+6. Videoissa näkyy katsojien määrä ja kanavissa näkyy tilaajien määrä.
+7. Käyttäjä voi luoda soittolistoja, joihin voi valita videoita eri kanavista.
    Soittolistan videoilla on tietty järjestys.
-7. Käyttäjä voi lähettää viestin toiselle käyttäjälle sekä estää toista käyttäjää
+8. Käyttäjä voi lähettää viestin toiselle käyttäjälle sekä estää toista käyttäjää
    lähettämästä viestejä hänelle.
 
 Tehtäväsi on suunnitella, mitä tauluja tietokannassa on, mitä sarakkeita kussakin taulussa on
@@ -130,7 +123,7 @@ Esitä tietokannan rakenne tietokantakaaviona sekä SQL-skeemana. Suunnittele ti
 5 periaatteiden mukaisesti ja käytä sopivissa kohdissa luvun 6.1 tekniikoita
 varmistamaan, että tietokannassa oleva tieto on oikeellista.
 
-Selosta lisäksi jokaisesta yllä olevasta vaatimuksesta (1–7), mitä tietoa tietokantaan
+Selosta lisäksi jokaisesta yllä olevasta vaatimuksesta (1–8), mitä tietoa tietokantaan
 tallennetaan, jotta kyseinen vaatimus saadaan toteutettua.
 
 Tässä ohjeessa on neuvoja tietokantakaavion ja SQL-skeeman tekemiseen:
@@ -186,8 +179,11 @@ jonka tavoitteena on parantaa tietokannan rakennetta.
    tietokannan suunnitteluperiaatteisiin. Mitä yhteistä näillä periaatteilla
    on normaalimuotojen kanssa?
 
+Tässä tehtävässä sinun tulee etsiä tietoa normaalimuodoista verkosta tai kirjallisuudesta
+kurssin materiaalin ulkopuolelta. Käytä useampaa lähdettä, jotta saat hyvän kuvan asiasta.
+
 Sopiva pituus tälle tehtävälle on noin kaksi sivua tekstiä raportissa.
 Liitä mukaan lista tehtävässä käyttämistäsi lähteistä.
 
 Huom! Kirjoita selostus niin, että sen voi ymmärtää ilman esitietoja
-normaalimuodoista tai tietokantojen teoriasta.
+normaalimuodoista, tietokantojen teoriasta tai matematiikasta.
