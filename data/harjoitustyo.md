@@ -33,7 +33,7 @@ Kirjoita raportin alkuun oma nimesi ja käyttämäsi mooc.fi-tunnus (yleensä s�
 Palauta raportti Moodle-järjestelmään, johon pääset [tästä](https://moodle.helsinki.fi/course/view.php?id=38331).
 Kurssiavain on `2020tikape`.
 
-Palauta raportti yhtenä PDF-tiedostona Moodleen. Tiedoston nimenä on sukunimi_etunimi.pdf (esimerkiksi jos nimesi on Maija Virtanen, tiedoston nimi on virtanen_maija.pdf).
+Palauta raportti yhtenä PDF-tiedostona Moodleen. Tiedoston nimenä on sukunimi\_etunimi.pdf (esimerkiksi jos nimesi on Maija Virtanen, tiedoston nimi on virtanen\_maija.pdf).
 
 Huom! Myös koodi tulee PDF-tiedostoon tekstinä eikä sitä palauteta erikseen.
 
