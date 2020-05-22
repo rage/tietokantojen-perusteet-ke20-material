@@ -83,7 +83,7 @@ Valitse toiminto: <font color=red>5</font>
 Ohjelman vaatimukset:
 
 * Ohjelman kaikki toiminnot toimivat oikein.
-* Kyselyissä ei haeta ylimääräistä tietoa ja tiedot haetaan yksittäisellä
+* Kyselyissä ei haeta ylimääräistä tietoa, ja tulokset haetaan yksittäisellä
   kyselyllä, kun se on luontevaa.
 * Kyselyissä ei käytetä alikyselyjä.
 * Käyttäjän antamat tiedot annetaan kyselyille parametreina.
