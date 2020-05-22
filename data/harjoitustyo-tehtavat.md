@@ -83,8 +83,8 @@ Valitse toiminto: <font color=red>5</font>
 Ohjelman vaatimukset:
 
 * Ohjelman kaikki toiminnot toimivat oikein.
-* Jokaisessa toiminnossa suoritetaan yksittäinen SQL-kysely, jonka tulostaulu
-  on sama kuin toiminnossa haluttu tulos.
+* Kyselyissä ei haeta ylimääräistä tietoa ja tiedot haetaan yksittäisellä
+  kyselyllä, kun se on luontevaa.
 * Kyselyissä ei käytetä alikyselyjä.
 * Käyttäjän antamat tiedot annetaan kyselyille parametreina.
 * Ohjelma antaa järkevän tuloksen myös, jos tietoa ei löydy.
