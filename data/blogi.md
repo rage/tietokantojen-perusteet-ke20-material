@@ -7,7 +7,7 @@ information_page: true
 
 ## 26.5.2020
 
-SQL trainerin statistiikka kesän kurssilta on nyt
+SQL Trainerin statistiikka kesän kurssilta on nyt
 [täällä](https://ahslaaks.users.cs.helsinki.fi/mooc/sql_stats.php).
 
 Statistiikka näyttää jokaisesta tehtävästä,
