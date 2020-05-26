@@ -5,6 +5,17 @@ hidden: false
 information_page: true
 ---
 
+## 26.5.2020
+
+SQL trainerin statistiikka kesän kurssilta on nyt
+[täällä](https://ahslaaks.users.cs.helsinki.fi/mooc/sql_stats.php).
+
+Statistiikka näyttää jokaisesta tehtävästä,
+moniko kurssin osallistuja on ratkonut sen tällä hetkellä.
+
+Tällä hetkellä eniten ratkaistuja on tehtävässä 1 (458 ratkaisijaa)
+ja vähiten ratkaistuja on tehtävässä 95 (20 ratkaisijaa).
+
 ## 21.5.2020
 
 Harjoitustyön ohje on nyt julkaistu. Harjoitustyö muodostuu neljästä
