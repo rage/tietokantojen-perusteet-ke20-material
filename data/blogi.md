@@ -24,8 +24,7 @@ id          tulos
 Voimme laskea kumulatiivisen summan kahden taulun kyselyllä näin:
 
 ```x
-sqlite> SELECT A.id, SUM(B.tulos) FROM Testi A, Testi B
-        WHERE B.id <= A.id GROUP BY A.id;
+sqlite> SELECT A.id, SUM(B.tulos) FROM Testi A, Testi B WHERE B.id <= A.id GROUP BY A.id;
 id          SUM(B.tulos)
 ----------  ------------
 1           200         
