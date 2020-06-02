@@ -5,6 +5,44 @@ hidden: false
 information_page: true
 ---
 
+## 2.6.2020
+
+Hyödyllinen taito SQL:ssä on osata laskea _kumulatiivinen summa_
+eli jokaiselle riville summa sarakkeen luvuista
+kyseiselle riville asti. Tarkastellaan esimerkiksi seuraavaa taulua:
+
+```x
+sqlite> SELECT * FROM Testi;
+id          tulos
+----------  ----------
+1           200
+2           100
+3           400
+4           100
+```
+
+Voimme laskea kumulatiivisen summan kahden taulun kyselyllä näin:
+
+```x
+sqlite> SELECT A.id, SUM(B.tulos) FROM Testi A, Testi B
+        WHERE B.id <= A.id GROUP BY A.id;
+id          SUM(B.tulos)
+----------  ------------
+1           200         
+2           300         
+3           700         
+4           800       
+```
+
+Tässä on ideana, että summa lasketaan taulun `A` riville ja
+taulusta `B` haetaan kaikki rivit, joiden `id` on pienempi tai
+sama kuin taulun `A` rivillä.
+Halutut summat saadaan laskettua `SUM`-funktiolla ryhmittelyn jälkeen.
+
+Vastaavaa tekniikkaa voi käyttää muissakin tilanteissa,
+jos haluamme laskea tuloksen, joka riippuu jotenkin kaikista
+"pienemmistä" riveistä taulussa.
+
 ## 26.5.2020
 
 SQL Trainerin statistiikka kesän kurssilta on nyt
