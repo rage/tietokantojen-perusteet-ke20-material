@@ -157,7 +157,7 @@ Suorita ohjelman avulla kolme testiä seuraavissa tapauksissa:
 Ilmoita jokaisesta testistä kuhunkin vaiheeseen 1–3 kuluva aika sekä
 tietokantatiedoston koko testin jälkeen. Miten voit selittää testin tulokset?
 
-Varmista ennen testejä, että vaiheessa 3 tulee järkeviä tuloksia,
+Varmista ennen testejä, että vaiheessa 3 kyselysi antavat järkeviä tuloksia,
 mutta älä tulosta testeissä mitään muuta kuin kunkin vaiheen ajankäyttö.
 
 Liitä raporttiin testien tulokset sekä käyttämäsi ohjelman lähdekoodi.
