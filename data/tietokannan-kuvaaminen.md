@@ -37,7 +37,7 @@ Esimerkiksi tässä on äskeistä tietokantaa vastaava SQL-skeema:
 ```sql
 CREATE TABLE Tuotteet (id INTEGER PRIMARY KEY, nimi TEXT, hinta INTEGER);
 CREATE TABLE Asiakkaat (id INTEGER PRIMARY KEY, nimi TEXT);
-CREATE TABLE Ostokset (tuote_id INTEGER, asiakas_id INTEGER);
+CREATE TABLE Ostokset (tuote_id INTEGER REFERENCES Tuotteet, asiakas_id INTEGER REFERENCES Asiakkaat);
 ```
 
 Jos oletamme, että tämä skeema on tiedostossa `kuvaus.sql`,
@@ -57,5 +57,5 @@ joka antaa nykyisen tietokannan skeeman:
 sqlite> .schema
 CREATE TABLE Tuotteet (id INTEGER PRIMARY KEY, nimi TEXT, hinta INTEGER);
 CREATE TABLE Asiakkaat (id INTEGER PRIMARY KEY, nimi TEXT);
-CREATE TABLE Ostokset (tuote_id INTEGER, asiakas_id INTEGER);
+CREATE TABLE Ostokset (tuote_id INTEGER REFERENCES Tuotteet, asiakas_id INTEGER REFERENCES Asiakkaat);
 ```
