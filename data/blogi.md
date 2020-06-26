@@ -5,6 +5,48 @@ hidden: false
 information_page: true
 ---
 
+## 26.6.2020
+
+Kurssi on jo lähellä loppua: SQL-tehtävien ja harjoitustyön deadline
+on ensi viikon tiistai (30.6. klo 23:59).
+
+Tässä on vinkkilista harjoitustyön raportin viimeistelyyn:
+
+**Tehtävä 1**
+
+* Varmista, että koodin pystyy lukemaan mukavasti raportista:
+  fontti on riittävän suuri ja myös pitkät rivit ovat luettavissa
+  (tarvittaessa usealle riville jaettuna).
+* Ei haittaa, vaikka koodi ei olisi helposti kopioitavissa.
+  Harjoitustyön arvostelija käy läpi koodin kokonaiskuvan
+  raportin perusteella mutta ei suorita koodia.
+
+**Tehtävä 2**
+
+* Tietokantakaavion kuva voi olla leveä, mutta laita se silti raporttiin
+  alkuperäisessä asennossa eikä käännettynä 90 astetta.
+  Arvioijan on hyvin hankala lukea kaaviota, jos se on käännetty.
+* Tietokannasta riittää antaa `CREATE TABLE` -komennot, jotka luovat taulut.
+  Ei tarvitse antaa esimerkiksi `SELECT`- tai `INSERT`-komentoja.
+
+**Tehtävä 3**
+
+* Rivien lisääminen tietokantaan tulisi kestää luokkaa kymmenen sekuntia.
+  Jos se kestää paljon enemmän, varmista, että kaikki lisäykset tehdään
+  yhden transaktion sisällä (alussa `BEGIN` ja lopussa `COMMIT`).
+* Ilman indeksiä tulosten hakemisen tulisi kestää luokkaa pari minuuttia
+  ja indeksin kanssa luokkaa pari sekuntia.
+  Jos saat poikkeavia tuloksia, varmista, että suoritat lisäykset ja
+  haut oikein ja mittaat ajan oikein.
+
+**Tehtävä 4**
+
+* Pyri siihen, että teksti on helposti ymmärrettävää. Monissa lähteissä
+  asiat on ilmaistu hankalasti ja matemaattisesti, mutta näin ei ole pakko tehdä.
+  Esimerkit helpottavat paljon normaalimuotojen ymmärtämistä.
+* Ei haittaa, jos ylität harjoitustyön ohjeissa annetun sivumäärän,
+  jos pystyt sen ansiosta selittämään asioita paremmin.
+
 ## 16.6.2020
 
 SQL Trainerin tehtävissä 93 ja 94 tulee vertailla käyttäjien kaverilistoja.
