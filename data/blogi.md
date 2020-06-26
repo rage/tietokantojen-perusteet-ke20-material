@@ -34,10 +34,12 @@ Tässä on vinkkilista harjoitustyön raportin viimeistelyyn:
 * Rivien lisääminen tietokantaan tulisi kestää luokkaa kymmenen sekuntia.
   Jos se kestää paljon enemmän, varmista, että kaikki lisäykset tehdään
   yhden transaktion sisällä (alussa `BEGIN` ja lopussa `COMMIT`).
-* Ilman indeksiä tulosten hakemisen tulisi kestää luokkaa pari minuuttia
-  ja indeksin kanssa luokkaa pari sekuntia.
+* Ilman indeksiä tulosten hakemisen tulisi kestää luokkaa minuutti
+  ja indeksin kanssa luokkaa sekunti.
   Jos saat poikkeavia tuloksia, varmista, että suoritat lisäykset ja
   haut oikein ja mittaat ajan oikein.
+* Käytetty tietokone ja ympäristö vaikuttavat aikoihin, eli yllä olevat
+  ajat ovat vain suuntaa antavia.
 
 **Tehtävä 4**
 
