@@ -5,6 +5,17 @@ hidden: false
 information_page: true
 ---
 
+## 7.7.2020
+
+Kurssin alustava tuloslista on nyt
+[täällä](https://www.cs.helsinki.fi/u/ahslaaks/tikape20_2/tulokset.txt).
+Joka rivillä on opiskelijanumero, SQL-tehtävien arvosana,
+harjoitustyön arvosana ja kurssin kokonaisarvosana.
+
+Lisäksi kurssin loppuraportti on
+[täällä](https://www.cs.helsinki.fi/u/ahslaaks/tikape20_2/raportti.html).
+Raportissa on yhteenveto kurssin tuloksista ja palautteesta.
+
 ## 26.6.2020
 
 Kurssi on jo lähellä loppua: SQL-tehtävien ja harjoitustyön deadline
